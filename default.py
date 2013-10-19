@@ -4582,6 +4582,7 @@ except:
 playtype_url=params.get('playtype',None)
 
 if playtype_url:
+    printDebug("hit playtype: %s" % playtype_url )
     url=params.get('url',None)
     mode=params.get('mode',None)
     t=params.get('t',None)
